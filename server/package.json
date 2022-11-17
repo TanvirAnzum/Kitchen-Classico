@@ -1,0 +1,27 @@
+{
+  "name": "kitchen_classico_server",
+  "version": "1.0.0",
+  "description": "Server side portion of a full stack project called Kitchen Classico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "mongodb",
+    "express",
+    "homeKitchen",
+    "serviceProvider"
+  ],
+  "author": "Tanvir Anzum",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.11.0"
+  }
+}
